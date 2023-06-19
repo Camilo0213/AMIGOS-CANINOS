@@ -294,7 +294,7 @@ nav ul li a:hover {
 
 @media screen and (max-width: 767px) {
   .logo {
-    top: 50%;
+    top: 45%;
     transform: translate(150%, -200%);
     width: 100px;
 
