@@ -257,3 +257,39 @@ nav ul li a:hover {
   top: 8px;
   left: 15px;
 }
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+  /* Estilos específicos para dispositivos móviles */
+}
+
+/* Estilos para pantallas medianas y grandes */
+@media screen and (min-width: 768px) {
+  /* Estilos específicos para tablets y escritorios */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  /* Estilos para dispositivos móviles */
+  /* Agrega aquí tus estilos específicos para pantallas más pequeñas */
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Estilos para tabletas */
+  /* Agrega aquí tus estilos específicos para tabletas */
+}
+
+@media screen and (min-width: 992px) {
+  /* Estilos para pantallas de escritorio */
+  /* Agrega aquí tus estilos específicos para pantallas de escritorio */
+}
