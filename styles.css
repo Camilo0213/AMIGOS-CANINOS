@@ -5,7 +5,9 @@ body {
   padding: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #ff4081;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -122,6 +124,8 @@ header {
 
 .logo img {
   max-width: 180px;
+  margin: 0 auto;
+  display: block;
 }
 
 h1 {
@@ -260,8 +264,9 @@ nav ul li a:hover {
 
 /* Estilos para pantallas pequeñas */
 @media screen and (max-width: 767px) {
-  /* Estilos específicos para dispositivos móviles */
+    /* Estilos específicos para dispositivos móviles */
 }
+
 
 @media screen and (max-width: 991px) {
   .container,
@@ -292,10 +297,11 @@ nav ul li a:hover {
 
 @media screen and (max-width: 767px) {
   .logo {
-    top: 45%;
-    transform: translate(150%, -200%);
-    width: 100px;
-    text: translate (50)%
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    margin-top: 20px;
   }
 
   h1 {
