@@ -6,13 +6,13 @@ body {
 }
 
 h1, h2, h3 {
-  color: #ff4081;
+  color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #ff4081;
+  color: black;
   font-weight: bold;
 }
 
@@ -24,7 +24,7 @@ a {
 
 /* Estilos de la página de inicio */
 header {
-  background-color: #fce4ec;
+  background-color: black;
   padding: 20px;
   text-align: center;
 }
@@ -38,6 +38,7 @@ h2 {
 h4 {
   font-size: 18px;
   text-align: center;
+  color: black;
 }
 
 /* Estilos de la página de servicios */
@@ -53,7 +54,7 @@ h4 {
   width: 100%;
   text-align: center;
   font-size: 24px;
-  color: #ff69b4;
+  color: black;
   margin-bottom: 20px;
 }
 
@@ -82,26 +83,26 @@ h4 {
 
 .servicio h3 {
   font-size: 24px;
-  color: #333;
+  color: black;
   margin-bottom: 10px;
 }
 
 .servicio p {
   font-size: 16px;
-  color: #555;
+  color: black;
 }
 
 /* Estilos del footer */
 footer {
-  background-color: #f1f1f1;
+  background-color: green;
   padding: 20px;
   text-align: center;
 }
 
 .btn {
   display: inline-block;
-  background-color: #ff4081;
-  color: #fff;
+  background-color: green;
+  color: white;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 18px;
@@ -110,36 +111,41 @@ footer {
 }
 
 .btn:hover {
-  background-color: #ff69b4;
+  background-color: greenyellow;
 }
 
 /* Estilos del encabezado */
 header {
-  background-color: #fce4ec;
+  background-color: green;
   padding: 20px;
   text-align: center;
 }
 
 .logo img {
-  max-width: 180px;
+  max-width: 280px;
   margin: 0 auto;
   display: block;
 }
 
 h1 {
   font-size: 32px;
-  color: #ff4081;
+  color: white;
   margin-bottom: 10px;
 }
 
 p {
   font-size: 18px;
-  color: #333;
+  color: white;
+}
+
+h5 {
+  font-size: 18px;
+  color: black;
 }
 
 nav a {
   text-decoration: none;
-  color: #ff4081;
+  color: white;
   font-weight: bold;
   margin-right: 10px;
 }
@@ -175,13 +181,13 @@ nav a {
 
 .testimonial p {
   font-size: 16px;
-  color: #555;
+  color: black;
   margin-bottom: 10px;
 }
 
 .testimonial-name {
   font-size: 14px;
-  color: #888;
+  color: black;
 }
 
 .whatsapp-icon {
@@ -232,7 +238,7 @@ nav ul li:last-child {
 
 nav ul li a {
   text-decoration: none;
-  color: #ff4081;
+  color: white;
   font-weight: bold;
   padding: 10px 20px;
   border-radius: 5px;
@@ -241,12 +247,12 @@ nav ul li a {
 }
 
 nav ul li a.button {
-  background-color: #ff4081;
-  color: #fff;
+  background-color: white;
+  color: white;
 }
 
 nav ul li a:hover {
-  background-color: #ff69b4;
+  background-color: greenyellow;
 }
 
 /* Estilos del botón en la barra de navegación */
